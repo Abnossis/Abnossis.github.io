@@ -5,16 +5,18 @@
 
   text-align: center;
 }
+
 body {
-    wide: 960px; 
+    width: 960px; 
     background-image: url("../images/swirl_pattern.png");
     font-size: 24px;
 }
+
 header {
     padding: 20px;
   margin-bottom: 20px;
   color: #333;
-  background: #ccc;
+  background: #4aaaa5;
  }
 
  #Your-Name {
@@ -52,4 +54,11 @@ header {
     width: 33%;
     float: left;
 
+}
+
+#main-bio {
+    background-color: #666;
+    color: white;
+    width: 33%; 
+    float: left;
 }
