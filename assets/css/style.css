@@ -1,54 +1,106 @@
 
-* {
+ *{
   box-sizing: border-box;
 
 
-  text-align: center;
+  
 }
 
 body {
-    width: 960px; 
-    background-image: url("../images/swirl_pattern.png");
+    background-image: "assets/images/swirl_pattern.png";
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 100%;
+    width: 100%; 
     font-size: 24px;
 }
 
 header {
-    padding: 20px;
-  margin-bottom: 20px;
-  color: #333;
-  background: #4aaaa5;
+
+    margin-left: 0;
+    margin-top: 0;
+    height: 105px;
+    padding: 0px;
+    margin-bottom: 20px;
+    background: #ffffff;
  }
 
- #Your-Name {
-    padding: 20px;
+ul {
 
-    background-color: #4aaaa5;
-    color: white;
-    width: 33%;
-    float: left;
- }
-
- #About {
-    padding: 20px;
-
-    background-color: white;
+    list-style: none;
+    margin-left: 150px;
+    padding: 0px;
+    overflow: hidden;
     color: black;
-    width: 33%;
+    float: left;
+    
+
+
+}
+h1 {
+    padding: 10px;
+
+
+}
+
+li {
+    margin-left: 0;
     float: left;
 }
 
-#Contact {
-    padding: 20px;
+h2 {
+    border-bottom-width: 4px;
+    margin-left: 20px;
 
-    background-color: white;
+color: #4aaaa5;
+}
+
+p {
+    margin-left: 0px;
+    text-overflow: auto;
+    float: left;
+
+}
+
+footer {
+
+    background-color: #666666;
+}
+Main-content {
+    
+    border-style: solid;
+    border-width: 10px;
+    border-color: #dddddd;
+    background-color: #ffffff;
     color: black;
+    width: 650px; 
+    float: left;
+
+}
+
+#Your-Name {
+    border-bottom-width: 4px;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+}
+
+#Menu {
+    padding: 20px;
+    color: #4aaaa5;
     width: 33%;
     float: left;
 }
 
 #Portfolio {
     padding: 20px;
-
     background-color: white;
     color: black;
     width: 33%;
@@ -56,9 +108,25 @@ header {
 
 }
 
+#Contact {
+    padding: 20px;
+    background-color: white;
+    color: black;
+    width: 33%;
+    float: left;
+}
+
 #main-bio {
-    background-color: #666;
-    color: white;
-    width: 33%; 
+    box-sizing: border-box;
+    clear: both;
+    overflow: auto;
+    margin-left: 90px;
+    margin-top: 40px;
+    border-style: solid;
+    border-width:  3px;
+    border-color: #dddddd;
+    background-color: #ffffff;
+    color: black;
+    width: 650px; 
     float: left;
 }
