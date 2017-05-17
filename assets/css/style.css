@@ -1,0 +1,55 @@
+
+* {
+  box-sizing: border-box;
+
+
+  text-align: center;
+}
+body {
+    wide: 960px; 
+    background-image: url("../images/swirl_pattern.png");
+    font-size: 24px;
+}
+header {
+    padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+ }
+
+ #Your-Name {
+    padding: 20px;
+
+    background-color: #4aaaa5;
+    color: white;
+    width: 33%;
+    float: left;
+ }
+
+ #About {
+    padding: 20px;
+
+    background-color: white;
+    color: black;
+    width: 33%;
+    float: left;
+}
+
+#Contact {
+    padding: 20px;
+
+    background-color: white;
+    color: black;
+    width: 33%;
+    float: left;
+}
+
+#Portfolio {
+    padding: 20px;
+
+    background-color: white;
+    color: black;
+    width: 33%;
+    float: left;
+
+}
