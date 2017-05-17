@@ -1,27 +1,26 @@
 
  *{
   box-sizing: border-box;
-
-
-  
 }
 
 body {
-    background-image: "assets/images/swirl_pattern.png";
+
+    background-image: url("../images/swirl_pattern.png");
     margin: 0;
     padding: 0;
     font-family: "Georgia", "Times New Roman", Times, serif;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 100%;
     width: 100%; 
-    font-size: 24px;
+   
 }
 
 header {
-
-    margin-left: 0;
-    margin-top: 0;
-    height: 105px;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: #dddddd;
+   
+    height: 110px;
     padding: 0px;
     margin-bottom: 20px;
     background: #ffffff;
@@ -35,98 +34,93 @@ ul {
     overflow: hidden;
     color: black;
     float: left;
-    
-
-
 }
+
 h1 {
-    padding: 10px;
-
-
+    padding: 0px;
 }
 
 li {
-    margin-left: 0;
+    color: #4aaaa5;
     float: left;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
 }
 
 h2 {
     border-bottom-width: 4px;
-    margin-left: 20px;
+    margin-left: 0px;
+    color: #4aaaa5;
+}
+h4 {
+    padding: 20px;
+    color: #4aaaa5;
 
-color: #4aaaa5;
 }
 
 p {
-    margin-left: 0px;
+    margin-left: 20px;
+    padding: 10px;
     text-overflow: auto;
     float: left;
 
 }
 
 footer {
-
+    text-align: center;
+    margin-top: 790px; 
+    padding: 20px;
     background-color: #666666;
-}
-Main-content {
-    
-    border-style: solid;
-    border-width: 10px;
-    border-color: #dddddd;
-    background-color: #ffffff;
-    color: black;
-    width: 650px; 
-    float: left;
-
 }
 
 #Your-Name {
-    border-bottom-width: 4px;
+    
     text-align: center;
     margin-left: 90px;
     margin-right: 0;
     margin-top: 0;
-    padding: 0;
+    padding: 10px;
     background-color: #4aaaa5;
     color: white;
     float: left;
 }
 
 #Menu {
+    margin-left: 80px;
     padding: 20px;
     color: #4aaaa5;
-    width: 33%;
-    float: left;
-}
-
-#Portfolio {
-    padding: 20px;
-    background-color: white;
-    color: black;
-    width: 33%;
-    float: left;
-
-}
-
-#Contact {
-    padding: 20px;
-    background-color: white;
-    color: black;
-    width: 33%;
-    float: left;
+    float: right;
 }
 
 #main-bio {
-    box-sizing: border-box;
+
     clear: both;
     overflow: auto;
     margin-left: 90px;
-    margin-top: 40px;
+    margin-top: 20px;
     border-style: solid;
-    border-width:  3px;
+    border-width:  2px;
+    padding: 20px;
     border-color: #dddddd;
     background-color: #ffffff;
     color: black;
     width: 650px; 
     float: left;
 }
+
+#Social-Media {
+
+    width: 270px;
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    border-width:  2px;
+    border-color: #dddddd;
+    background-color: #ffffff;
+    float: left;
+}
+#github {
+float: left;
+}
+
