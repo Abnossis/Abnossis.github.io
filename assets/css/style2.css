@@ -9,12 +9,12 @@
 
 }
 
-.Menu {
-    clear: both;
+#Menu {
+   
     overflow: auto;
-    position: absolute;
+    
     text-decoration: none;
-    width: 400px;
+   
     box-sizing: border-box;
     margin-left: 285px;
     padding: 20px;
