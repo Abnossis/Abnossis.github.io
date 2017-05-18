@@ -1,5 +1,56 @@
+ <!------------------ About page --------------->
+
+#Your-Name {
+    background-color: #4aaaa5;
+    color: #4aaaa5;
+    height: 200px;
 
 
+
+}
+
+.Menu {
+    clear: both;
+    overflow: auto;
+    position: absolute;
+    text-decoration: none;
+    width: 400px;
+    box-sizing: border-box;
+    margin-left: 285px;
+    padding: 20px;
+    color: #4aaaa5;
+
+}
+
+#Main-content {
+    position-top: 110px;
+    clear: both;
+    overflow: auto;
+    margin-left: 80px;
+    margin-top: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width:  2px;
+    padding: 20px;
+   
+    background-color: #ffffff;
+    color: black;
+    width: 650px; 
+    float: left;  
+}
+
+
+#main-bio {
+    
+    clear: both;
+    overflow: auto;
+    color: black;
+    float: left;
+    margin-bottom: 20px;
+}
 
 #line1 {
 
@@ -11,14 +62,146 @@
     float: left;
     
 }
+
+#bio-image {
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+
+
+}
+
+
+#Social-Media {
+      box-sizing: border-box;
+
+    clear: both;
+    position: absolute;
+    margin: 150px 770px;
+    width: 270px;
+    height: 200px;
+    padding: 20px;
+    border-style: solid;
+    border-width:  2px;
+    border-color: #dddddd;
+    background-color: #ffffff;
+}
+
 #line2 {
     position: absolute;
     
-    border-bottom: 1px;
+    border-bottom: 10px;
     margin-bottom: 20px;
-    width: 270px;
+    width: 100px;
     border-style: solid;
     border-color: #dddddd;
+    
+}
+
+#buttons {
+    width: 300px;
+    padding: 10px;
+    float: left;
+    
+
+}
+
+#github {
+     margin: 0px;
+    float: left
+}
+
+ #in, #Stack{
+     margin: 0px;
+    float: left;
+
+}
+
+.content {
+    margin: 10px;
+    padding: 0px;
+
+}
+
+ <!----------- Bottom  ----------->
+
+#copy {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #66666;
+    text-align: center;
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    font-size: 14px;
+    line-height: 30%;
+    
+    color: #dddddd;
+ 
+}
+ <!-- End bottom of the  page -->
+
+ <!------------------- o -------------------->
+
+
+ <!--------- contact page container ------------>
+
+
+#container2 {
+
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+
+#fname {
+     background-color: #ffffff;
+}
+
+ <!------------  Portfolio page ---------------->
+#Portfolio {
+
+    position-top: 110px;
+    clear: both;
+    overflow: auto;
+    margin-left: 80px;
+    margin-top: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width:  2px;
+    padding: 20px;
+   
+    background-color: #ffffff;
+    color: black;
+    width: 650px; 
+    float: left;
+}
+#colum1 {
+    float: left;
+}
+#colum2 {
+    float: right;
+}
+
+#line2 {
+    position: absolute;
+    border-bottom: 1px;
+    margin-bottom: 20px;
+    width: 220px;
+    border-style: solid;
+    border-color: #dddddd;
+    float: left;
     
 }
 
@@ -33,104 +216,9 @@
 
 }
 
-#Menu {
-    text-decoration: none;
-
-    box-sizing: border-box;
-    margin-left: 285px;
-    padding: 20px;
-    color: #4aaaa5;
-    float: left;
-}
-#Main-content {
-
-    position: absolute;
-    clear: both;
-    overflow: auto;
-    margin-left: 80px;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px
-    border-bottom: 3px;
-    border-style: solid;
-    border-color: #dddddd;
-   
-    border-style: solid;
-    border-width:  2px;
-    padding: 20px;
-   
-    background-color: #ffffff;
-    color: black;
-    width: 650px; 
-    float: left;  
-}
-#Your-Name {
-    
-    text-align: center;
-    margin-left: 80px;
-    margin-right: 0;
-    margin-top: 0;
-    padding: 10px;
-    background-color: #4aaaa5;
-    color: white;
-    float: left;
-}
-
-#main-bio {
-    
-    clear: both;
-    overflow: auto;
-    color: black;
-    float: left;
-    margin-bottom: 20px;
-}
-
-#Social-Media {
-    position: absolute;
-    margin: 20px 770px;
-    border: 250px;
-    padding: 20px;
-    border-style: solid;
-    border-width:  2px;
-    border-color: #dddddd;
-    background-color: #ffffff;
-
-    float: right;
-}
 
 
-#github, #in, #Stack{
-    margin: 10px;
-    float: left;
-}
 
 
-#bio-image {
-    padding: 20px;
-    box-sizing: border-box;
-    float: left;
-
-
-}
-
-#buttons {
-
-    margin-right: 40px;
-    float: left;
-
-}
-
-#content {
-    float: left;
-    width: 33%;
-
-}
-
-#copy {
-
-    background-color: #666666;
-    margin-left: 150px;
-    text-align: center;
-}
 
 

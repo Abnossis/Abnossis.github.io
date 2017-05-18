@@ -1,5 +1,5 @@
 
- *{
+ * {
   box-sizing: border-box;
 }
 
@@ -18,47 +18,56 @@ body {
 }
 
 header {
+
+    position: absolute;
     font-family: 'Georgia', Times, "Times New Roman", serif;
     box-sizing: border-box;
-    width: 100%;
    
     border-bottom: 2px;
     border-style: solid;
     border-color: #dddddd;
    
-    height: 110px;
-    padding: 0px;
+    width: 100%;
     background: #ffffff;
  }
 
 ul {
-    font-family: 'Georgia', Times, "Times New Roman", serif;
 
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    box-sizing: border-box;
+    width: 1400px;
     text-decoration: none;
     font-color: #4aaaa5;
     list-style: none;
-    margin-left: 150px;
-    padding: 0px;
+    margin-top: 20px;
+    margin-left: 200px;
+    
     overflow: hidden;
-    float: left;
+    float: right;
+    background-color: #ffffff;
 }
 
 h1 {
-    padding: 0px;
-}
-
-li {
-
+    color: white;
+    border: 2px;
+    border-color: #4aaaa5;
+    margin-left: 80px;
+    margin-color: #4aaaa5 ;
+    background-color: #4aaaa5;
+    width: 270px;
+    padding: 20px;
     float: left;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    background-color: #ffffff;
-}
+
+
+ }
+
+ 
 
 h2 {
     margin-left: 10px;
     color: #4aaaa5;
 }
+
 h4 {
 
     text-align: center;
@@ -66,24 +75,34 @@ h4 {
 
 }
 
-p {
+li {
     text-align: justify;
-    margin: 0px;
-    padding: 20px;
+    margin: 20px 20px;
+    padding: px;
     text-overflow: auto;
-    float: left;
+
+
 
 }
 
 
 
 a {
+    margin-left: 5px;
+    padding: 5px;
     color: #dddddd; 
-    width: 270px;
     text-decoration:none;
+    float: left;
+}
+
+
+
 }
 
 footer {
+     
+
+    clear: both;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -95,7 +114,6 @@ footer {
     font-size: 14px;
     line-height: 30%;
     
-    background-color: #666666;
     color: #dddddd;
     width: 100%;    
 
