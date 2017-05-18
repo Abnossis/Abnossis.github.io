@@ -5,34 +5,41 @@
 
 body {
 
+
+
     background-image: url("../images/swirl_pattern.png");
     margin: 0;
     padding: 0;
     font-family: "Georgia", "Times New Roman", Times, serif;
     font-size: 24px;
     line-height: 100%;
-    width: 100%; 
+    width: 100%;
    
 }
 
 header {
-    border-bottom: 3px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    box-sizing: border-box;
+    width: 100%;
+   
+    border-bottom: 2px;
     border-style: solid;
     border-color: #dddddd;
    
     height: 110px;
     padding: 0px;
-    margin-bottom: 20px;
     background: #ffffff;
  }
 
 ul {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
 
+    text-decoration: none;
+    font-color: #4aaaa5;
     list-style: none;
     margin-left: 150px;
     padding: 0px;
     overflow: hidden;
-    color: black;
     float: left;
 }
 
@@ -41,86 +48,59 @@ h1 {
 }
 
 li {
-    color: #4aaaa5;
+
     float: left;
-    margin-right: 50px;
+    margin-right: 10px;
     margin-bottom: 20px;
     background-color: #ffffff;
 }
 
 h2 {
-    border-bottom-width: 4px;
-    margin-left: 0px;
+    margin-left: 10px;
     color: #4aaaa5;
 }
 h4 {
-    padding: 20px;
+
+    text-align: center;
     color: #4aaaa5;
 
 }
 
 p {
-    margin-left: 20px;
-    padding: 10px;
+    text-align: justify;
+    margin: 0px;
+    padding: 20px;
     text-overflow: auto;
     float: left;
 
 }
 
-footer {
-    text-align: center;
-    margin-top: 790px; 
-    padding: 20px;
-    background-color: #666666;
-}
 
-#Your-Name {
-    
-    text-align: center;
-    margin-left: 90px;
-    margin-right: 0;
-    margin-top: 0;
-    padding: 10px;
-    background-color: #4aaaa5;
-    color: white;
-    float: left;
-}
 
-#Menu {
-    margin-left: 80px;
-    padding: 20px;
-    color: #4aaaa5;
-    float: right;
-}
-
-#main-bio {
-
-    clear: both;
-    overflow: auto;
-    margin-left: 90px;
-    margin-top: 20px;
-    border-style: solid;
-    border-width:  2px;
-    padding: 20px;
-    border-color: #dddddd;
-    background-color: #ffffff;
-    color: black;
-    width: 650px; 
-    float: left;
-}
-
-#Social-Media {
-
+a {
+    color: #dddddd; 
     width: 270px;
-    margin: 20px;
-    padding: 20px;
-    border-style: solid;
-    border-width:  2px;
-    border-color: #dddddd;
-    background-color: #ffffff;
-    float: left;
-}
-#github {
-float: left;
+    text-decoration:none;
 }
 
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #66666;
+    text-align: center;
+    font-family: "Georgia", "Times New Roman", Times, serif;
+    font-size: 14px;
+    line-height: 30%;
+    
+    background-color: #666666;
+    color: #dddddd;
+    width: 100%;    
+
+}
+ 
+container {
+
+}
