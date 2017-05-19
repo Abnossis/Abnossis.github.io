@@ -2,35 +2,21 @@
 
 #Your-Name {
     background-color: #4aaaa5;
-    color: #4aaaa5;
-    height: 200px;
-
-
 
 }
 
-#Menu {
-   
-    overflow: auto;
-    
-    text-decoration: none;
+/*#Menu {
    
     box-sizing: border-box;
-    margin-left: 285px;
-    padding: 20px;
+    margin-left: 600px;
+    padding: 40px;
     color: #4aaaa5;
-
-}
+}*/
 
 #Main-content {
-    position-top: 110px;
     clear: both;
     overflow: auto;
-    margin-left: 80px;
-    margin-top: 150px;
-    margin-right: 20px;
-    margin-bottom: 20px
-    border-bottom: 3px;
+    margin: 20px 20px 40px 80px;
     border-style: solid;
     border-color: #dddddd;
     border-width:  2px;
@@ -53,31 +39,34 @@
 }
 
 #line1 {
-
-    width: 600px;
-    border-bottom: 1px;
-    margin-bottom: 10px;
+    
+    width: 100%;
+    border-bottom: 2px;
+    margin-bottom: 20px;
     border-style: solid;
     border-color: #dddddd;
-    float: left;
     
 }
 
+#line2 {
+    width: 100%;
+ 
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #dddddd;
+    
+}
 #bio-image {
     padding: 20px;
     box-sizing: border-box;
-    float: left;
 
 
 }
 
 
 #Social-Media {
-      box-sizing: border-box;
-
-    clear: both;
-    position: absolute;
-    margin: 150px 770px;
+    box-sizing: border-box;
+    margin: 20px;
     width: 270px;
     height: 200px;
     padding: 20px;
@@ -85,18 +74,10 @@
     border-width:  2px;
     border-color: #dddddd;
     background-color: #ffffff;
+    float: left;
 }
 
-#line2 {
-    position: absolute;
-    
-    border-bottom: 10px;
-    margin-bottom: 20px;
-    width: 100px;
-    border-style: solid;
-    border-color: #dddddd;
-    
-}
+
 
 #buttons {
     width: 300px;
@@ -107,11 +88,12 @@
 }
 
 #github {
+    size: 64px;
      margin: 0px;
     float: left
 }
 
- #in, #Stack{
+ #in, #Stack {
      margin: 0px;
     float: left;
 
@@ -125,22 +107,7 @@
 
  <!----------- Bottom  ----------->
 
-#copy {
-    width: 100%;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    background-color: #66666;
-    text-align: center;
-    font-family: "Georgia", "Times New Roman", Times, serif;
-    font-size: 14px;
-    line-height: 30%;
-    
-    color: #dddddd;
- 
-}
+
  <!-- End bottom of the  page -->
 
  <!------------------- o -------------------->
@@ -195,7 +162,7 @@
 }
 
 #line2 {
-    position: absolute;
+    /*position: absolute;*/
     border-bottom: 1px;
     margin-bottom: 20px;
     width: 220px;
@@ -215,10 +182,6 @@
     border-top: #dddddd;
 
 }
-
-
-
-
 
 
 
