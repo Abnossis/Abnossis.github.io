@@ -125,12 +125,13 @@
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
+    resize: horizontal;
+    float: left;
 
 }
 
 #fname {
-     background-color: #ffffff;
+     color: #ffffff;
 }
 
  <!------------  Portfolio page ---------------->
@@ -154,11 +155,12 @@
     width: 650px; 
     float: left;
 }
-#colum1 {
+#column1 {
+    margin: 20px;
     float: left;
 }
-#colum2 {
-    float: right;
+#column2 {
+    margin: 20px;
 }
 
 #line2 {
@@ -168,20 +170,18 @@
     width: 220px;
     border-style: solid;
     border-color: #dddddd;
-    float: left;
     
 }
 
-#line3 {
-    padding: 20px;
-    margin-top: 20px;
-    border-bottom: 4px;
-    margin-bottom: 20px;
+
+
+
+
+#lineP {
     width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
     border-style: solid;
-    border-top: #dddddd;
-
+    border-color: #dddddd;
+    
 }
-
-
-

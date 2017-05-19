@@ -16,13 +16,11 @@ body {
 }
 
 header {
-    height: 100px;
     font-size: 24px;
-    border-color: #ffffff;
     background-color: #ffffff; 
-    
+    border-bottom-width: 5px;
+
     margin-bottom: 20px;
-    clear: both;
     overflow: auto;
     text-align: center;
     clear: both;
@@ -30,8 +28,11 @@ header {
     top: 0;
     left: 0;
     width: 100%; 
-
     float: left; 
+
+    border-style: solid;
+    border-color: #dddddd;
+
      }
 
 
@@ -61,7 +62,7 @@ h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 44px;
     box-sizing: border-box;
-    height: 100px;
+    height: 116px;
     text-align: center;
     color: white;
     margin-left: 80px;
