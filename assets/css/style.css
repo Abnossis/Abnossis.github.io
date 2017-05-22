@@ -1,45 +1,35 @@
 
- * {
-  box-sizing: border-box;
-}
+ * { box-sizing: border-box;}
 
 body {
-
-    
-    border: 20px;
     background-image: url("../images/swirl_pattern.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
     font-size: 24px;
     font-color: #4aaaa5;
     width: 100%;
-   
+    border: 20px;
+    padding: 20px;
+    margin-top: 119px;
+    float: left;
+
 }
 
 header {
-    font-size: 24px;
-    background-color: #ffffff; 
-    border-bottom-width: 5px;
-
-    margin-bottom: 20px;
+    position: fixed;
     overflow: auto;
+
+    font-size: 24px;
     text-align: center;
-    clear: both;
+
+    border-bottom: 3px solid #4aaaa5;
+    margin-bottom: 20px;
+       
     right: 0;
     top: 0;
     left: 0;
-    width: 100%; 
-    float: left; 
-
-    border-style: solid;
-    border-color: #dddddd;
-
-     }
-
-
- }
-
-
-
+    width: 100%;    
+    background-color: #ffffff; 
+    float: left;
 }
 
 ul {
@@ -61,20 +51,14 @@ ul {
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 44px;
-    box-sizing: border-box;
     height: 116px;
-    text-align: center;
     color: white;
-    margin-left: 80px;
+    margin-left: 40px;
     margin-right: 350px;
     background-color: #4aaaa5;
     padding: 30px;
     float: left;
-
-
- }
-
- 
+}
 
 h2 {
     font-size: 40px;
@@ -89,7 +73,6 @@ h4 {
     margin: 20px;
     text-align: center;
     color: #4aaaa5;
-
 }
 
 li {
@@ -98,31 +81,32 @@ li {
     text-overflow: auto;
 }
 
-}
-
 img {
 
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 nav {
+
 
     text-align: center;
     text-decoration:none;
     padding: 20px;
     margin: 20px;
+    border: 10px;
     float: left;
 }
 
 footer {
-    clear: both;
+    position: fixed;
+    margin-top: 20px;
     overflow: auto;
     margin-top: 40px;
     border-style: solid;
     border-color: #4aaaa5;
     border-top-width: 10px;
     background-color: #666666;
-    height: 90px;
+    height: 50px;
     text-align: center;
     clear: both;
     right: 0;
@@ -133,13 +117,10 @@ footer {
     line-height: 40%;
     color: #dddddd;
     width: 100%;  
-     }
+}
 
- a {
+a {
 
         text-decoration: none;
         color: #777777;
- }
-
- p {
- }
+}
